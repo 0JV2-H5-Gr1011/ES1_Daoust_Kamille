@@ -7,6 +7,8 @@ public class DemarrerParcours : MonoBehaviour
 
     [SerializeField] private GameObject _PlataformeInitiale;
 
+    //  [SerializeField] private GameObject _Bille;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,4 +28,6 @@ public class DemarrerParcours : MonoBehaviour
         Destroy(_PlataformeInitiale);
 
     }
+
+
 }
