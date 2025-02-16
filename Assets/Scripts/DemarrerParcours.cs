@@ -6,6 +6,7 @@ public class DemarrerParcours : MonoBehaviour
 {
 
     [SerializeField] private GameObject _PlataformeInitiale;
+    [SerializeField] private GameObject _Portail;
 
     //  [SerializeField] private GameObject _Bille;
 
@@ -30,4 +31,8 @@ public class DemarrerParcours : MonoBehaviour
     }
 
 
+   
 }
+
+
+
