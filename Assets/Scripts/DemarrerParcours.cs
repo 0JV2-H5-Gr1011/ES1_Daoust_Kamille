@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class DemarrerParcours : MonoBehaviour
 {
+
+    [SerializeField] private GameObject _PlataformeInitiale;
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hiii");
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+
+   
         
+    }
+
+    public void DebutGlissade()
+    {
+        Destroy(_PlataformeInitiale);
+
     }
 }
