@@ -21,11 +21,11 @@ public class DestructionObjets : MonoBehaviour
 
      private void OnCollisionEnter(Collision collision) 
     {
-        // Vérifie si l'objet qui entre en collision a le tag "Bille"
         if (collision.gameObject.CompareTag("Bille")) 
         {
-            // Détruit ce cube (l'objet auquel ce script est attaché)
             Destroy(gameObject); 
         }
     }
+
+
 }
